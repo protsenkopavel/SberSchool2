@@ -1,5 +1,7 @@
 package net.protsenko;
 
+import org.springframework.stereotype.Component;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,6 +10,7 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
+@Component
 public class FileDownloader {
     private int fileCounter = 1;
 
